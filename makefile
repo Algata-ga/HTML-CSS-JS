@@ -15,7 +15,7 @@ local:
 	parcel serve --dist-dir .dist index.html
 preview: build
 	git checkout gh-pages
-	rm -rf *
+	git rm -rf *
 	cp -r .dist/* .
 	git add --all
 	git commit 
