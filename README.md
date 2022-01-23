@@ -13,7 +13,9 @@ This is a minimal template for a basic website.
 
 ## Instructions
 
-After cloning this, create a gh-pages branch in github and enable Github Pages in the setting
+After cloning this, create a gh-pages branch in github and enable Github Pages in the repository settings.
+
+You need to edit the SITE_NAME variable in the makefile.
 
 For building the website
 
@@ -47,6 +49,5 @@ make deploy USERNAME=myname SERVER_ADDRESS=127.0.0.1
 
 This will create a tar file name site-{your-site-name}.tar.gz.
 
-You need to edit the SITE_NAME variable in the makefile.
 
 
