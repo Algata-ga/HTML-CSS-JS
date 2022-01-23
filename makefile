@@ -10,6 +10,7 @@ SERVER_ADDRESS ?=
 .PHONY : build preview
 
 build:
+	rm -rf .dist/*
 	parcel build --dist-dir .dist index.html
 local:
 	parcel serve --dist-dir .dist index.html
