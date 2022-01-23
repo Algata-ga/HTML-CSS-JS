@@ -1,2 +1,4 @@
 .dist/
-.parcel_cache/
+.parcel-cache/
+*.tar.gz
+
