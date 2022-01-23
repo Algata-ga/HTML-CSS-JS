@@ -8,6 +8,7 @@ preview: build
 	git checkout gh-pages
 	rm -rf *
 	cp -r .dist/* .
+	git add --all
 	git commit 
 	git push
 	git checkout main
