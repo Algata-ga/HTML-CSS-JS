@@ -17,6 +17,8 @@ local:
 preview: build
 	git checkout gh-pages
 	git rm -rf *
+	git restore --staged .gitignore
+	git restore .gitignore
 	cp -r .dist/* .
 	git add --all
 	git commit 
