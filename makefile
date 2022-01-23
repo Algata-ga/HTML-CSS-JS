@@ -6,7 +6,7 @@ build:
 	parcel build --dist-dir .dist index.html
 preview: build
 	git checkout gh-pages
-	git rm -rf *
+	rm -rf *
 	cp -r .dist/* .
 	git commit 
 	git push
