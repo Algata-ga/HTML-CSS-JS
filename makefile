@@ -22,7 +22,7 @@ preview: build
 	cp -r .dist/* .
 	git add --all
 	git commit 
-	git push
+	git push --force origin
 	git checkout main
 deploy: build
 	mv .dist ${SITE_NAME}
